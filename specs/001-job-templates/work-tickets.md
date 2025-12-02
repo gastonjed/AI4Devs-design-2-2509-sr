@@ -20,7 +20,23 @@ Each ticket includes:
 - **Technical Requirements**: Specific implementation details
 - **Acceptance Criteria**: Testable conditions for completion
 - **Dependencies**: Other tickets that must be completed first
-- **Estimated Effort**: Complexity rating (S/M/L/XL)
+- **Estimated Effort**: Complexity rating using three methodologies:
+  - **T-Shirt Size**: XS, S, M, L, XL (intuitive relative sizing)
+  - **Fibonacci Points**: 1, 2, 3, 5, 8, 13, 21 (for velocity tracking)
+  - **Time Estimate**: Rough development days (for planning)
+
+## Effort Estimation Guide
+
+| T-Shirt | Fibonacci | Days | Description | Examples |
+|---------|-----------|------|-------------|----------|
+| **XS** | 1 | 0.5 | Trivial change, no complexity | Config change, text update |
+| **S** | 2-3 | 1-2 | Simple, well-defined task | Database migration, simple CRUD endpoint |
+| **M** | 5 | 3-4 | Moderate complexity, some unknowns | Business logic implementation, API integration |
+| **L** | 8 | 5-7 | Complex, multiple components | Full UI feature, complex service logic |
+| **XL** | 13 | 8-10 | Very complex, cross-cutting concerns | Major architectural change, multi-component feature |
+| **XXL** | 21+ | 10+ | Epic-sized, should be broken down | Consider splitting into smaller tickets |
+
+**Note**: Estimates assume experienced developer, may vary by team velocity
 
 ---
 
@@ -65,7 +81,10 @@ Each ticket includes:
 
 **Dependencies**: None
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -98,7 +117,10 @@ Each ticket includes:
 
 **Dependencies**: T001
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -136,7 +158,10 @@ Each ticket includes:
 
 **Dependencies**: T002
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -192,7 +217,10 @@ Each ticket includes:
 
 **Dependencies**: T002, T003
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -247,7 +275,10 @@ Each ticket includes:
 
 **Dependencies**: T002, T003
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -291,7 +322,10 @@ Each ticket includes:
 
 **Dependencies**: T004, T005
 
-**Estimated Effort**: Large (L)
+**Estimated Effort**:
+- **T-Shirt**: L
+- **Fibonacci**: 8 points
+- **Time**: 5-7 days
 
 ---
 
@@ -330,7 +364,10 @@ Each ticket includes:
 
 **Dependencies**: T005, T006
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -365,7 +402,10 @@ Each ticket includes:
 
 **Dependencies**: T006, T007
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -407,7 +447,10 @@ Each ticket includes:
 
 **Dependencies**: T007
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -471,7 +514,10 @@ Each ticket includes:
 
 **Dependencies**: T002
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -514,7 +560,10 @@ Each ticket includes:
 
 **Dependencies**: T010
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -548,7 +597,10 @@ Each ticket includes:
 
 **Dependencies**: T010, T011
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -593,7 +645,10 @@ Each ticket includes:
 
 **Dependencies**: T004, T011
 
-**Estimated Effort**: Large (L)
+**Estimated Effort**:
+- **T-Shirt**: L
+- **Fibonacci**: 8 points
+- **Time**: 5-7 days
 
 ---
 
@@ -624,7 +679,10 @@ Each ticket includes:
 
 **Dependencies**: T005, T013
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -658,7 +716,10 @@ Each ticket includes:
 
 **Dependencies**: T011, T013
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -720,7 +781,10 @@ Each ticket includes:
 
 **Dependencies**: T002
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -762,7 +826,10 @@ Each ticket includes:
 
 **Dependencies**: T002
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -799,7 +866,10 @@ Each ticket includes:
 
 **Dependencies**: T002
 
-**Estimated Effort**: Small (S)
+**Estimated Effort**:
+- **T-Shirt**: S
+- **Fibonacci**: 2 points
+- **Time**: 1-2 days
 
 ---
 
@@ -846,7 +916,10 @@ Each ticket includes:
 
 **Dependencies**: T004, T013, T016, T017, T018
 
-**Estimated Effort**: Large (L)
+**Estimated Effort**:
+- **T-Shirt**: L
+- **Fibonacci**: 8 points
+- **Time**: 5-7 days
 
 ---
 
@@ -898,7 +971,10 @@ Each ticket includes:
 
 **Dependencies**: T016, T019
 
-**Estimated Effort**: Large (L)
+**Estimated Effort**:
+- **T-Shirt**: L
+- **Fibonacci**: 8 points
+- **Time**: 5-7 days
 
 ---
 
@@ -944,7 +1020,10 @@ Each ticket includes:
 
 **Dependencies**: T007, T009, T019
 
-**Estimated Effort**: Large (L)
+**Estimated Effort**:
+- **T-Shirt**: L
+- **Fibonacci**: 8 points
+- **Time**: 5-7 days
 
 ---
 
@@ -987,7 +1066,10 @@ Each ticket includes:
 
 **Dependencies**: T017, T018, T019
 
-**Estimated Effort**: Medium (M)
+**Estimated Effort**:
+- **T-Shirt**: M
+- **Fibonacci**: 5 points
+- **Time**: 3-4 days
 
 ---
 
@@ -995,12 +1077,24 @@ Each ticket includes:
 
 ### Total Effort Estimate
 
-| Priority | Ticket Count | Estimated Effort | MVP? |
-|----------|--------------|------------------|------|
-| P1 | 9 tickets (T001-T009) | ~6 weeks | ✅ Yes |
-| P2 | 6 tickets (T010-T015) | ~3 weeks | ⚠️ Nice to have |
-| P3 | 7 tickets (T016-T022) | ~4 weeks | ❌ Future |
-| **Total** | **22 tickets** | **~13 weeks** | - |
+| Priority | Ticket Count | T-Shirt Sizes | Fibonacci Points | Time Estimate | MVP? |
+|----------|--------------|---------------|------------------|---------------|------|
+| P1 | 9 tickets (T001-T009) | 1L, 5M, 3S | 8 + 25 + 6 = **39 pts** | ~6 weeks | ✅ Yes |
+| P2 | 6 tickets (T010-T015) | 1L, 3M, 2S | 8 + 15 + 4 = **27 pts** | ~3 weeks | ⚠️ Nice to have |
+| P3 | 7 tickets (T016-T022) | 3L, 3M, 1S | 24 + 15 + 2 = **41 pts** | ~4 weeks | ❌ Future |
+| **Total** | **22 tickets** | **5L, 11M, 6S** | **107 points** | **~13 weeks** | - |
+
+**Breakdown by Size**:
+- **Large (L)**: 5 tickets × 8 points = 40 points (~5-7 days each)
+- **Medium (M)**: 11 tickets × 5 points = 55 points (~3-4 days each)
+- **Small (S)**: 6 tickets × 2 points = 12 points (~1-2 days each)
+
+**Velocity Planning**:
+- Assuming 2-week sprints (10 working days)
+- Typical developer capacity: 10-15 points per sprint
+- **P1 MVP**: 39 points ÷ 12 points/sprint = ~3 sprints (6 weeks)
+- **P1+P2**: 66 points ÷ 12 points/sprint = ~5.5 sprints (11 weeks)
+- **All features**: 107 points ÷ 12 points/sprint = ~9 sprints (18 weeks)
 
 ### Recommended Implementation Order
 
